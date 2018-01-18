@@ -14,4 +14,20 @@ Comandos e procedimentos adotados no dia-a-dia do uso de linux.
 6) chmod +x <nome-do-arquivo-baixado>.linux
 7) ./<nome-do-arquivo-baixado>.linux (necessário ir até diretório de download)
 
+# formas de instalar programas (pacotes)
+1) via repositórios oficiais usando apt-get
+2) via download do pacote usando dpkg
+
+# comandos para instalação de pacotes
+1) se o pacote já estiver nos repositórios oficiais:
+  1.1) sudo apt-get install <pacote>
+2) se for necessário adicionar um novo repositório:
+  2.1) sudo add-apt-repository <repositório>
+  2.2) sudo apt-get update
+  2.3) sudo apt-get install <pacote>
+3) pacote .deb
+  3.1) sudo dpkg -i <pacote>.deb
+  3.2) sudo apt-get -f install (corrige problemas ocorridos durante a instalação)
+
+
 
