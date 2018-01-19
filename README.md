@@ -28,6 +28,19 @@ Comandos e procedimentos adotados no dia-a-dia do uso de linux.
 3) pacote .deb
   3.1) sudo dpkg -i <pacote>.deb
   3.2) sudo apt-get -f install (corrige problemas ocorridos durante a instalação)
+  
+# instalação de temas
 
+tema:
+1) download do tema
+2) conceder permissão de escrita: sudo chmod +x theme-xxx.deb 
+3) instalar o tema: sudo dpkg -i theme-xxx.deb 
+4) instalar dependências: sudo apt-get -f install 
 
+ícones:
+1) sudo add-apt-repository ppa:moka/daily
+2) sudo apt-get update
+3) sudo apt-get install moka-icon-theme faba-icon-theme faba-mono-icons
 
+ferramenta de configuração:   
+1) sudo apt install unity-tweak-tool
