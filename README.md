@@ -5,7 +5,7 @@ Comandos e procedimentos adotados no dia-a-dia do uso de linux.
 1) conectar cabo de rede ao computador
 2) ir em Configurações do sistema > Programas e atualizações > Drivers adicionais (instalar drivers)
 
-# instalar eset nod32
+# instalação do antivírus eset nod32
 1) download via site para 64-bit
 2) abrir terminal
 3) sudo dpkg --add-architecture i386
@@ -47,3 +47,9 @@ ferramenta de configuração:
 
 # instalação do Docker
 1) seguir os passos em https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#set-up-the-repository
+
+# instalação do Git
+1) sudo apt-get update
+2) sudo apt-get install git
+3) git config --global user.name "Felipe Thomas"
+4) git config --global user.email "felipecejug@gmail.com"
