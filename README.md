@@ -45,9 +45,6 @@ tema:
 ferramenta de configuração:   
 1) sudo apt install unity-tweak-tool
 
-# instalação do Docker
-1) seguir os passos em https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#set-up-the-repository
-
 # instalação do Git
 1) sudo apt-get update
 2) sudo apt-get install git
