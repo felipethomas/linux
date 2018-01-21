@@ -10,4 +10,7 @@
 6) sudo docker container run --rm debian bash --version
 7) sudo docker container run -it debian bash
 8) sudo docker container run --name mydeb -it debian bash
+9) sudo docker container ls
+10) sudo docker container ls -a
+11) sudo docker container start -ai mydeb
 
