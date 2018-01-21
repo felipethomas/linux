@@ -13,4 +13,7 @@
 9) sudo docker container ls
 10) sudo docker container ls -a
 11) sudo docker container start -ai mydeb
+12) sudo docker container run -p 8080:80 nginx
+13) sudo docker container run -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx
+14) sudo docker container run -d --name ex-daemon-basic -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx
 
