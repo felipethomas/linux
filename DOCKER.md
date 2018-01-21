@@ -16,4 +16,8 @@
 12) sudo docker container run -p 8080:80 nginx
 13) sudo docker container run -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx
 14) sudo docker container run -d --name ex-daemon-basic -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx
+15) sudo docker container start ex-daemon-basic
+16) sudo docker container restart ex-daemon-basic
+17) sudo docker container stop ex-daemon-basic
+
 
