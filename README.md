@@ -37,10 +37,22 @@ tema:
 3) instalar o tema: sudo dpkg -i theme-xxx.deb 
 4) instalar dependências: sudo apt-get -f install 
 
+ou 
+
+1) sudo add-apt-repository ppa:noobslab/themes
+2) sudo apt-get update
+3) sudo apt-get install arc-theme
+
 ícones:
 1) sudo add-apt-repository ppa:moka/daily
 2) sudo apt-get update
 3) sudo apt-get install moka-icon-theme faba-icon-theme faba-mono-icons
+
+ou 
+
+1) sudo add-apt-repository ppa:noobslab/icons
+2) sudo apt-get update
+3) sudo apt-get install arc-icons
 
 ferramenta de configuração:   
 1) sudo apt install unity-tweak-tool
