@@ -29,6 +29,9 @@
 25) sudo docker container logs ex-daemon-basic
 26) sudo docker container inspect ex-daemon-basic
 27) sudo docker container exec ex-daemon-basic uname -or
+28) sudo docker image ls
+29) sudo docker volume ls
+30) sudo docker container rm 3cd2f4743b0e
 
 
 
