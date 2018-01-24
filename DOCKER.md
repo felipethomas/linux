@@ -19,5 +19,16 @@
 15) sudo docker container start ex-daemon-basic
 16) sudo docker container restart ex-daemon-basic
 17) sudo docker container stop ex-daemon-basic
+18) sudo docker container ls
+19) sudo docker container list
+20) sudo docker container ps
+21) sudo docker container ls -a
+22) sudo docker container list -a
+23) sudo docker container ps -a
+24) sudo docker container start ex-daemon-basic
+25) sudo docker container logs ex-daemon-basic
+26) sudo docker container inspect ex-daemon-basic
+27) sudo docker container exec ex-daemon-basic uname -or
+
 
 
